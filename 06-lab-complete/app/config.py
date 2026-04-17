@@ -38,7 +38,7 @@ class Settings:
     )
 
     # Storage
-    redis_url: str = field(default_factory=lambda: os.getenv("REDIS_URL", ""))
+    REDIS_URL: str = field(default_factory=lambda: os.getenv("REDIS_URL", ""))
 
     def validate(self):
         logger = logging.getLogger(__name__)

@@ -1,7 +1,7 @@
 # Deployment Information
 
 ## Public URL
-https://agent-lab12-nguyentiendung.up.railway.app
+https://your-actual-agent-url.up.railway.app
 
 ## Platform
 Railway
@@ -10,7 +10,7 @@ Railway
 
 ### 1. Health Check
 ```bash
-curl https://agent-lab12-nguyentiendung.up.railway.app/health
+curl https://your-actual-agent-url.up.railway.app/health
 # Expected: {"status": "ok", "uptime": ..., "version": "1.0.0"}
 ```
 

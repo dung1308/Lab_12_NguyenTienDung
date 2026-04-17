@@ -33,7 +33,7 @@
 ## Part 3: Cloud Deployment
 
 ### Exercise 3.1: Railway deployment
-- **URL**: https://agent-lab12-nguyentiendung.up.railway.app (Ví dụ)
+- **URL**: https://your-actual-agent-url.up.railway.app
 - **Screenshot**: [N/A - See DEPLOYMENT.md]
 
 ## Part 4: API Security
