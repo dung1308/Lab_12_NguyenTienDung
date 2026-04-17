@@ -1,7 +1,7 @@
 # Deployment Information
 
 ## Public URL
-https://agent-lab12-nguyentiendung.up.railway.app
+https://agent-day12-agent-deployment.up.railway.app
 
 ## Platform
 Railway
