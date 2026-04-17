@@ -24,11 +24,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 FROM python:3.11-slim AS runtime
 
 # Non-root user
-<<<<<<< HEAD
 RUN groupadd -r agent && useradd -r -g agent -d /app -m agent
-=======
-RUN groupadd -r agent && useradd -r -g agent agent
->>>>>>> ac1437c6f573d7055dae20928ce61429c63c1fb7
 
 WORKDIR /app
 
@@ -41,11 +37,8 @@ COPY utils/ ./utils/
 
 RUN chown -R agent:agent /app
 
-<<<<<<< HEAD
 USER agent
 
-=======
->>>>>>> ac1437c6f573d7055dae20928ce61429c63c1fb7
 # Activate the virtual environment for the runtime user
 ENV PATH="/opt/venv/bin:$PATH"
 ENV PYTHONPATH=/app
