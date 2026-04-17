@@ -1,7 +1,11 @@
 # Deployment Information
 
 ## Public URL
+<<<<<<< HEAD
 https://your-actual-agent-url.up.railway.app
+=======
+https://agent-day12-agent-deployment.up.railway.app
+>>>>>>> ac1437c6f573d7055dae20928ce61429c63c1fb7
 
 ## Platform
 Railway
